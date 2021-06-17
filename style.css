@@ -1,0 +1,55 @@
+.back {
+    background-color: #9b59b6;
+    background: rgb(155,89,182);
+    background: linear-gradient(
+90deg
+, rgba(155,89,182,1) 0%, rgba(100,51,121,1) 100%);
+    box-shadow: rgb(0 0 0 / 12%) 0 1px 6px, rgb(0 0 0 / 12%) 0 1px 4px;
+    -webkit-box-shadow: rgb(0 0 0 / 12%) 0 1px 6px, rgb(0 0 0 / 12%) 0 1px 4px;
+    -moz-box-shadow: rgba(0,0,0,.117647) 0 1px 6px,rgba(0,0,0,.117647) 0 1px 4px;
+    -o-box-shadow: rgba(0,0,0,.117647) 0 1px 6px,rgba(0,0,0,.117647) 0 1px 4px;
+    -ms-box-shadow: rgba(0,0,0,.117647) 0 1px 6px,rgba(0,0,0,.117647) 0 1px 4px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    /* background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); */
+}
+.outerDivWrapper{
+    height: 500;
+    margin: 0em;
+}
+.Content {
+    height: 100vh;
+    overflow-x: hidden;
+   /* margin: 0em; */
+   overflow-y: scroll;
+
+}
+.userregister {
+    margin-top: 55px;
+}
+.alert-text {
+    text-align: left;
+    color: brown;
+}
+.headingstyle {
+  
+}
+.btn-style{
+    width:100%
+}
+.alertclass {
+    display: none;
+    margin-top: 14px;
+}
+
+.animated {
+    animation: mymove 1s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes mymove {
+    from {color: #4cd137;}
+    to {color: #12350d;}
+  }
